@@ -1,0 +1,31 @@
+Package: structural.breakpoint.analysis
+Title: Structural Breakpoint Analysis
+Version: 0.1.0
+Authors@R: 
+    person("C", "G", email = "cg@cognovo.net", 
+           role = "aut",
+Description: 
+    This package provides an application with functions for identifying 
+    structural breakpoints in time series data using various statistical 
+    methods including the Bai-Perron algorithm and Chow test.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    tseries,
+    strucchange,
+    zoo,
+    ggplot2,
+    lmtest,
+    car,
+    WRS2,
+    sandwich,
+    extrafont,
+    DT,
+    plotly,
+    shinyBS,
+    shinyjs, 
+    shinycssloaders,
+    shinyAce
+RoxygenNote: 7.1.2
