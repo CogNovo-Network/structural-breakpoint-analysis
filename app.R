@@ -16,7 +16,7 @@ install_if_missing <- function(pkg) {
 # Apply function to all packages
 invisible(lapply(packages, install_if_missing))
 
-r_script_path <- "https://cognovo.net/statistics/mortality-data-destatis/sba-standalone1.R"  # Replace with the actual path
+r_script_path <- "https://cognovo.net/statistics/mortality-data-destatis/sba-standalone1.R"  
 
 # Set global options for custom error handling
 options(shiny.error = function() {
