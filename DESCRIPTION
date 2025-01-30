@@ -10,6 +10,7 @@ Description: A package for structural breakpoint analysis.
 License: MIT
 Encoding: UTF-8
 LazyData: true
+LazyData: true
 Imports: 
     shiny,
     tseries,
