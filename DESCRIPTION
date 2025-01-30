@@ -2,30 +2,9 @@ Package: structural.breakpoint.analysis
 Type: Package
 Title: Structural Breakpoint Analysis
 Version: 0.1.0
-Authors@R: c(
-    person("C", "G", email = "cg@cognovo.net", role = c("aut", "cre"))
-)
+Author: C G
 Maintainer: C G <cg@cognovo.net>
 Description: A package for structural breakpoint analysis.
 License: MIT
 Encoding: UTF-8
 LazyData: true
-LazyData: true
-Imports: 
-    shiny,
-    tseries,
-    strucchange,
-    zoo,
-    ggplot2,
-    lmtest,
-    car,
-    WRS2,
-    sandwich,
-    extrafont,
-    DT,
-    plotly,
-    shinyBS,
-    shinyjs, 
-    shinycssloaders,
-    shinyAce
-RoxygenNote: 7.1.2
